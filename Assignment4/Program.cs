@@ -25,10 +25,19 @@ namespace Assignment4
             // answer 3 
             #region 
 
-            B.Title = "C# Programming"; // ظهرت عادي لان public  متاح خلال ال  solutoin  كله 
+            //B.Title = "C# Programming"; // ظهرت عادي لان public  متاح خلال ال  solutoin  كله 
 
-            Console.WriteLine(B.Title); //  هتطبع عادي
+            //Console.WriteLine(B.Title); //  هتطبع عادي
             #endregion
+
+            // answer 4
+            #region answer 4
+
+            B.Genre = Genre.Science;
+
+            Console.WriteLine(B.Genre); // بتطلب ال  SCIENCE 
+            #endregion
+
 
         }
     }

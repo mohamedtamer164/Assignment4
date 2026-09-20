@@ -10,6 +10,7 @@ namespace Assignment4
         internal int copiesInStock;
 
         public string Title;
+        public Genre Genre { get; set; }
     }
 
 
