@@ -63,11 +63,25 @@ namespace Assignment4
 
             // answer 8
             #region
-            string genreText = "Science";
-            Genre genre = Enum.Parse<Genre>(genreText);
+            //string genreText = "Science";
+            //Genre genre = Enum.Parse<Genre>(genreText);
 
-            Console.WriteLine(genre);
+            //Console.WriteLine(genre);
             #endregion
+            // answer 9
+            #region
+            string genreText = "Mystery";
+
+            if (Enum.TryParse<Genre>(genreText, out Genre genre))
+            {
+                Console.WriteLine(genre);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            }
+            #endregion
+
 
         }
     }
