@@ -47,10 +47,18 @@ namespace Assignment4
 
             // answer 6
             #region
-            int genreNumber = 1;
-            Genre genre = (Genre)genreNumber;
+            //int genreNumber = 1;
+            //Genre genre = (Genre)genreNumber;
 
-            Console.WriteLine(genre); //    Fiction =1
+            //Console.WriteLine(genre); //    Fiction =1
+            #endregion
+            // answer 7
+            #region answer 7
+            Genre genre = Genre.Fiction;
+
+            string genreText = genre.ToString();
+
+            Console.WriteLine(genreText); // "Fiction"   انت حولته من نوع ال int ل string
             #endregion
 
         }
