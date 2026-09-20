@@ -33,11 +33,17 @@ namespace Assignment4
             // answer 4
             #region answer 4
 
-            B.Genre = Genre.Science;
+            //B.Genre = Genre.Science;
 
-            Console.WriteLine(B.Genre); // بتطلب ال  SCIENCE 
+            //Console.WriteLine(B.Genre); // بتطلب ال  SCIENCE 
             #endregion
 
+            // answer 5
+            #region answer 5
+            Console.WriteLine((int)Genre.Fiction); // 1
+            Console.WriteLine((int)Genre.NonFiction); // 2
+            Console.WriteLine((int)Genre.Science); // 3
+            #endregion
 
         }
     }
