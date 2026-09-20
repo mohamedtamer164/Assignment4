@@ -54,11 +54,19 @@ namespace Assignment4
             #endregion
             // answer 7
             #region answer 7
-            Genre genre = Genre.Fiction;
+            //Genre genre = Genre.Fiction;
 
-            string genreText = genre.ToString();
+            //string genreText = genre.ToString();
 
-            Console.WriteLine(genreText); // "Fiction"   انت حولته من نوع ال int ل string
+            //Console.WriteLine(genreText); // "Fiction"   انت حولته من نوع ال int ل string
+            #endregion
+
+            // answer 8
+            #region
+            string genreText = "Science";
+            Genre genre = Enum.Parse<Genre>(genreText);
+
+            Console.WriteLine(genre);
             #endregion
 
         }
