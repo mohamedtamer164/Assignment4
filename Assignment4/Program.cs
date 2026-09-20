@@ -40,9 +40,17 @@ namespace Assignment4
 
             // answer 5
             #region answer 5
-            Console.WriteLine((int)Genre.Fiction); // 1
-            Console.WriteLine((int)Genre.NonFiction); // 2
-            Console.WriteLine((int)Genre.Science); // 3
+            //Console.WriteLine((int)Genre.Fiction); // 1
+            //Console.WriteLine((int)Genre.NonFiction); // 2
+            //Console.WriteLine((int)Genre.Science); // 3
+            #endregion
+
+            // answer 6
+            #region
+            int genreNumber = 1;
+            Genre genre = (Genre)genreNumber;
+
+            Console.WriteLine(genre); //    Fiction =1
             #endregion
 
         }
