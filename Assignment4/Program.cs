@@ -18,10 +18,17 @@ namespace Assignment4
 
             // answer 2
             #region answer 2
-            B.copiesInStock = 5; //  ظهر عادي لان ال  internal  بتخلي الجواها يتشاف لحد نفس ال  project
-            Console.WriteLine(B.copiesInStock); // 5 
+            //B.copiesInStock = 5; //  ظهر عادي لان ال  internal  بتخلي الجواها يتشاف لحد نفس ال  project
+            //Console.WriteLine(B.copiesInStock); // 5 
             #endregion
 
+            // answer 3 
+            #region 
+
+            B.Title = "C# Programming"; // ظهرت عادي لان public  متاح خلال ال  solutoin  كله 
+
+            Console.WriteLine(B.Title); //  هتطبع عادي
+            #endregion
 
         }
     }

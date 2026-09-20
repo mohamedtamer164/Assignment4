@@ -9,6 +9,10 @@ namespace Assignment4
         private string password = "secert";
         internal int copiesInStock;
 
-
+        public string Title;
     }
+
+
+
+
 }
